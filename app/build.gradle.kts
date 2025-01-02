@@ -46,4 +46,6 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     implementation ("com.squareup.picasso:picasso:2.71828")
+    implementation ("androidx.viewpager2:viewpager2:1.0.0")
+
 }

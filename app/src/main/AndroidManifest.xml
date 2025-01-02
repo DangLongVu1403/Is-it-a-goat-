@@ -13,6 +13,18 @@
         android:theme="@style/Theme.OptimalApplication"
         tools:targetApi="31">
         <activity
+            android:name=".ViewStubActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UnViewStubActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityWithViewStub"
+            android:exported="false" />
+        <activity
+            android:name=".OverdrawActivity"
+            android:exported="false" />
+        <activity
             android:name=".FibonaciActivity"
             android:exported="false" />
         <activity
